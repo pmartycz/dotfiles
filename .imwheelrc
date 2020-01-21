@@ -1,8 +1,12 @@
 # Speed up scrolling for chromium and pass unchanged for zoom
 "^chromium$"
-    None, Up, Up, 3
+    None, Up, Up, 2
     Control_L, Up, Control_L|Up
     Control_R, Up, Control_R|Up
-    None, Down, Down, 3
+    Shift_L, Up, Shift_L|Up
+    Shift_R, Up, Shift_R|Up
+    None, Down, Down, 2
     Control_L, Down, Control_L|Down
     Control_R, Down, Control_R|Down
+    Shift_L, Down, Shift_L|Down
+    Shift_R, Down, Shift_R|Down
